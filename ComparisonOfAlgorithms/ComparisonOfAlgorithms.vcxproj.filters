@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\src">
+      <UniqueIdentifier>{cb90afbf-d3cc-4a30-9e8e-4a5faa6c6b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\generator">
+      <UniqueIdentifier>{8c046207-bd3f-4e0c-a95f-3507576ab902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\methods">
+      <UniqueIdentifier>{43c6b8b5-9500-4ff5-8c63-6f9fccc93235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\generator">
+      <UniqueIdentifier>{0fcddf58-7085-4069-9125-8f821c8ff69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\methods">
+      <UniqueIdentifier>{b99a4439-afdd-484f-96ab-4f5e0d92c122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\src">
+      <UniqueIdentifier>{eb4ee2d1-8128-45f9-bd1d-3557d97233a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parameters.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Task.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="methods\BaseMethod.cpp">
+      <Filter>Исходные файлы\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="methods\BaseMethodAndPiyavsky.cpp">
+      <Filter>Исходные файлы\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="methods\MethodWithTwoR.cpp">
+      <Filter>Исходные файлы\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="methods\MethodWithTwoR_lambda.cpp">
+      <Filter>Исходные файлы\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\HillProblem.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\IConstrainedOptProblem.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\IConstrainedOptProblemFamily.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\IGeneralOptProblem.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\IGeneralOptProblemFamily.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\IOptProblem.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\IOptProblemFamily.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="generator\ShekelProblem.cpp">
+      <Filter>Исходные файлы\generator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generator\HillProblem.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\HillProblemFamily.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\IConstrainedOptProblem.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\IConstrainedOptProblemFamily.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\IGeneralOptProblem.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\IGeneralOptProblemFamily.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\IOptProblem.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\IOptProblemFamily.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\ShekelProblem.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="generator\ShekelProblemFamily.hpp">
+      <Filter>Файлы заголовков\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="methods\BaseMethod.h">
+      <Filter>Файлы заголовков\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="methods\BaseMethodAndPiyavsky.h">
+      <Filter>Файлы заголовков\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="methods\IMethodWithTwoR.h">
+      <Filter>Файлы заголовков\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="methods\MethodWithTwoR.h">
+      <Filter>Файлы заголовков\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="methods\MethodWithTwoR_lambda.h">
+      <Filter>Файлы заголовков\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logger.h">
+      <Filter>Файлы заголовков\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parameters.h">
+      <Filter>Файлы заголовков\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Task.h">
+      <Filter>Файлы заголовков\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities.h">
+      <Filter>Файлы заголовков\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
