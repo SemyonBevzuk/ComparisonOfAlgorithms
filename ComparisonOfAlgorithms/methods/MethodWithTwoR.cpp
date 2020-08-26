@@ -34,8 +34,6 @@ void MethodWithTwoR::Run() {
 		trial = MakeTrial(new_x);
 		trial.r_type = TypeCharacteristic[TypeCharacteristic.size() - 1];
 		stop = InsertTrial(trial);
-		if (countTrials > maxTrials)
-			stop = true;
 	}
 }
 

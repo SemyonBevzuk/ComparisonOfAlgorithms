@@ -14,7 +14,7 @@ using namespace std;
 // Доступные методы:
 // BASE_METHOD -- алгоритм глобального поиска (АГП)
 // BASE_METHOD_AND_PIYAVSKY -- смесь АГП и метода Пиявского с константой lambda
-// METHOD_WITH_TWO_R -- АГП c двойной оценкой константы Липшица 
+// METHOD_WITH_TWO_R -- АГП c двойной оценкой константы Липшица
 // METHOD_WITH_TWO_R_LAMBDA -- АГП с двойной оценкой константы Липшица и константой смеси решающих правил lambda
 enum method_types { BASE_METHOD, BASE_METHOD_AND_PIYAVSKY, METHOD_WITH_TWO_R, METHOD_WITH_TWO_R_LAMBDA};
 
@@ -129,7 +129,7 @@ void Run_serial_experiment(task_types taskType, method_types methodType, Paramet
 			cout << "Error when trying AddResult!\n";
 		}
 		cout << ".";
-		// Подбробны вывод информации о задачах в серии
+		// Подбробный вывод информации о задачах в серии
 		//cout << "#" << task.GetCurrentFuncNumber() << ": Trials = " << im->GetTrialsCount();
 		//double t1 = task.GetOptimumPoint();
 		//double t2 = im->GetBestTrial().x;

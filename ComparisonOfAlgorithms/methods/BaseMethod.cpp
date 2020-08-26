@@ -35,8 +35,6 @@ void BaseMethod::Run() {
 		trial = MakeTrial(new_x);
 		//Вставка результатов очередного испытания
 		stop = InsertTrial(trial);
-		if (countTrials > maxTrials)
-			stop = true;
 	}
 }
 
@@ -133,6 +131,9 @@ bool BaseMethod::InsertTrial(CTrial Trial) {
 		if (fabs(bestTrial.x - realX) < eps)
 			return true;
 	}
+	// Остановка по ограничению на число итераций
+	if (countTrials > maxTrials)
+		return true;
 
 	return false;
 }
